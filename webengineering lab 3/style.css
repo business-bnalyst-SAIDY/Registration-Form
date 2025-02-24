@@ -1,0 +1,35 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+.strength-meter {
+    height: 5px;
+    width: 100%;
+    background: lightgray;
+    margin-top: 5px;
+}
+
+.strength-meter div {
+    height: 100%;
+    width: 0;
+}
+
+.toggle-theme {
+    cursor: pointer;
+}
